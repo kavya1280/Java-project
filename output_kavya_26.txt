@@ -1,0 +1,129 @@
+C:\Users\hp\Desktop\Hospitalmanagement>javac HospitalManagementSystem.java
+
+C:\Users\hp\Desktop\Hospitalmanagement>java HospitalManagementSystem
+===== Hospital Management System =====
+1. Doctor Registration
+2. Patient Registration
+3. Doctor Login
+4. Patient Login
+5. Exit
+Enter your choice: 1
+===== Doctor Registration =====
+Enter your username:
+Shiju Thomas
+Enter your PASSWORD:
+12345
+Enter your Address :
+Rajagiri
+Enter your Specialty :
+Cardiologists
+Enter your Contactno:
+9087655433
+Doctor registered successfully!
+===== Hospital Management System =====
+1. Doctor Registration
+2. Patient Registration
+3. Doctor Login
+4. Patient Login
+5. Exit
+Enter your choice: 1
+===== Doctor Registration =====
+Enter your username:
+Anjaleena
+Enter your PASSWORD:
+4567
+Enter your Address :
+Koppraparambil
+Enter your Specialty :
+Dermatologists
+Enter your Contactno:
+8907654321
+Doctor registered successfully!
+===== Hospital Management System =====
+1. Doctor Registration
+2. Patient Registration
+3. Doctor Login
+4. Patient Login
+5. Exit
+Enter your choice: 2
+===== Patient Registration =====
+Enter your Username:
+Thomas
+Enter your PASSWORD:
+12@34
+Enter your Address :
+Aluva
+Enter your Age :
+24
+Enter your Contactno:
+6789065432
+Patient registered successfully!
+===== Hospital Management System =====
+1. Doctor Registration
+2. Patient Registration
+3. Doctor Login
+4. Patient Login
+5. Exit
+Enter your choice: 4
+===== Patient Login =====
+Enter your Username:
+Thomas
+Enter your PASSWORD:
+12@34
+Login successful! Welcome Patient Thomas
+===== Available Doctors =====
+Doctor Username: Kavya, Specialty: ENT
+Doctor Username: leo, Specialty: ENT
+Doctor Username: Shiju Thomas, Specialty: Cardiologists
+Doctor Username: Anjaleena, Specialty: Dermatologists
+Enter Doctor's Username for Appointment:
+Shiju Thomas
+Enter Appointment Date (YYYY-MM-DD):
+2024-02-27
+Appointment booked successfully!
+===== Hospital Management System =====
+1. Doctor Registration
+2. Patient Registration
+3. Doctor Login
+4. Patient Login
+5. Exit
+Enter your choice: 4
+===== Patient Login =====
+Enter your Username:
+Ram
+Enter your PASSWORD:
+1234
+Login successful! Welcome Patient Ram
+===== Available Doctors =====
+Doctor Username: Kavya, Specialty: ENT
+Doctor Username: leo, Specialty: ENT
+Doctor Username: Shiju Thomas, Specialty: Cardiologists
+Doctor Username: Anjaleena, Specialty: Dermatologists
+Enter Doctor's Username for Appointment:
+Kavya
+Enter Appointment Date (YYYY-MM-DD):
+2024-03-02
+Appointment booked successfully!
+===== Hospital Management System =====
+1. Doctor Registration
+2. Patient Registration
+3. Doctor Login
+4. Patient Login
+5. Exit
+Enter your choice: 3
+===== Doctor Login =====
+Enter your Username:
+Kavya
+Enter your PASSWORD:
+1234@
+Login successful! Welcome Doctor Kavya
+===== Appointments =====
+Appointment ID: 3, Patient Name: Ram, Appointment Date: 2024-03-02
+===== Hospital Management System =====
+1. Doctor Registration
+2. Patient Registration
+3. Doctor Login
+4. Patient Login
+5. Exit
+Enter your choice: 5
+Exiting...

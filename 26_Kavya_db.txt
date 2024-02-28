@@ -1,0 +1,53 @@
+===Database hospital_db
+
+== Table structure for table appointment
+
+|------
+|Column|Type|Null|Default
+|------
+|//**AppointmentID**//|int|No|
+|DoctorUsername|varchar(50)|Yes|NULL
+|PatientName|varchar(50)|Yes|NULL
+|AppointmentDate|date|Yes|NULL
+== Dumping data for table appointment
+
+|1|leo|Yavika|2024-02-26
+|2|Shiju Thomas|Thomas|2024-02-27
+|3|Kavya|Ram|2024-03-02
+
+
+== Table structure for table doctor
+
+|------
+|Column|Type|Null|Default
+|------
+|//**Did**//|int|No|
+|username|varchar(50)|No|
+|PASSWORD|varchar(10)|No|
+|Address|varchar(20)|No|
+|Specialty|varchar(50)|No|
+|Contactno|varchar(10)|No|
+== Dumping data for table doctor
+
+|2|Kavya|1234@|GreenTown|ENT|1234512345
+|3|leo|1234|ABCD|ENT|123456
+|5|Shiju Thomas|12345|Rajagiri|Cardiologists|9087655433
+|6|Anjaleena|4567|Koppraparambil|Dermatologists|8907654321
+
+
+== Table structure for table patient
+
+|------
+|Column|Type|Null|Default
+|------
+|//**Pid**//|int|No|
+|Pname|varchar(50)|No|
+|PASSWORD|varchar(10)|No|
+|Address|varchar(20)|No|
+|Age|varchar(3)|No|
+|Contactno|varchar(10)|No|
+== Dumping data for table patient
+
+|1|Yavika|1234|Kochi|20|1238904567
+|2|Ram|1234|hgfdh|62|98765432
+|5|Thomas|12@34|Aluva|24|6789065432
